@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+    body{
+      color: hsl(220, 15%, 55%);
+      font: normal 15px 'Outfit';
+      background-color: hsl(212, 45%, 89%);
+    }
+    h1{
+      font-weight: 700;
+      color: hsl(218, 44%, 22%);
+    }
+    .card{
+      position: relative;
+      top: 100px;
+      padding: 10px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      width: 25%;
+      box-shadow: 1px 1px 25px hsla(0, 0%, 0%, 0.199);
+      border-radius: 20px;
+    }
+    img{
+      margin: 30px 0;
+      border-radius: 16px;
+      width: 90%;
+      position: relative;
+    }
+    h1,p{
+      text-align: center;
+      margin: 20px 50px;
+    }
+    @media only screen and (max-width: 600px){
+      .card{
+        width: 90%;
+      }
+    }
+    @media only screen and (max-width: 899px){
+      .card{
+        width: 70%;
+      }
+    }
+    
+    .attribution {position: relative; top: 130px;}
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="images/image-qr-code.png">
+    <h1>Improve your front-end skills by building projects</h1>
+    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Diego Guaglianone</a>.
+  </div>
+</body>
+</html>
